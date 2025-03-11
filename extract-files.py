@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
+# Not ideal to generate your own vendor/motorola/sm4375-common. Use a preexisting sm7325-common instead.
 
 from extract_utils.fixups_blob import (
     blob_fixup,

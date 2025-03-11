@@ -36,7 +36,7 @@ fi
 
 case "$platformid" in
     "415"|"439"|"456"|"501"|"502")
-	/vendor/bin/sh /vendor/bin/init.kernel.post_boot-lahaina.sh
+	/vendor/bin/sh /vendor/bin/init.kernel.post_boot-holi.sh
 	;;
 
     "450")

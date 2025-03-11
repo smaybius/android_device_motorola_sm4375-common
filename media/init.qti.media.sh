@@ -42,7 +42,7 @@ fi
 
 target=`getprop ro.board.platform`
 case "$target" in
-    "lahaina")
+    "holi")
         case "$soc_hwid" in
             475|515)
                 sku_ver=`cat /sys/devices/platform/soc/aa00000.qcom,vidc/sku_version` 2> /dev/null
@@ -65,7 +65,7 @@ case "$target" in
                 setprop vendor.netflix.bsp_rev "Q875-32774-1"
                 ;;
             *)
-                setprop vendor.media.target_variant "_lahaina"
+                setprop vendor.media.target_variant "_holi"
                 setprop vendor.netflix.bsp_rev "Q875-32408-1"
                 ;;
         esac
